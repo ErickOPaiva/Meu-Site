@@ -10,28 +10,6 @@
   box-sizing: border-box;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Altura total da viewport */ /* remover ;) */
-
-}
-
-/* Estilos para telas maiores */
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-/* Estilos para telas menores */
-@media (max-width: 600px) {
-  .container {
-      width: 100%;
-      padding: 10px;
-  }
-}
-
 :root {
   --text: #EDF1F7;
   --red: #C51212;
@@ -62,4 +40,26 @@ button:hover {
   height: 100vh;
   overflow: hidden;
 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura total da viewport */ /* remover ;) */
+
+}
+
+/* Estilos para telas maiores */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 600px) {
+  .container {
+      width: 100%;
+      padding: 10px;
+  }
 }
